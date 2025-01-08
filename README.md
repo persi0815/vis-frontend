@@ -1,1 +1,2 @@
-# vis-frontend
+# frontend
+VIS Investment Frontend with React
