@@ -43,7 +43,7 @@ const teamMembers = [
 
 function TeamIntroduce() {
   return (
-    <section className="bg-white dark:bg-black py-10 px-6">
+    <section className="bg-white dark:bg-black py-10 px-6 font-sans">
       <h1 className="text-3xl font-bold text-center text-black dark:text-white mb-6">
         Meet Our Team
       </h1>
@@ -62,10 +62,10 @@ function TeamIntroduce() {
               />
             </div>
             {/* 팀원 정보 */}
-            <h2 className="text-lg font-semibold text-black dark:text-white">
+            <h2 className="text-lg font-semibold text-black dark:text-white font-sans">
               {member.name}
             </h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400">
+            <p className="text-sm text-gray-600 dark:text-gray-400 font-sans">
               {member.position}
             </p>
             <p

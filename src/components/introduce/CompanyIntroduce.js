@@ -19,23 +19,21 @@ function CompanyIntroduce() {
             About Our Company
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            At VIS Investment, we specialize in cutting-edge stock market
-            analysis and predictive modeling. Our mission is to empower
-            investors with accurate, data-driven insights to make informed
-            decisions in an ever-changing financial landscape.
+            VIS Investment is a specialized Korean trading firm focused on identifying and 
+            trading U.S. equities that have been excessively sold off relative to their intrinsic 
+            value due to short-term market concerns. The name 'VIS‘ derives from Latin, 
+            meaning ’strength and momentum‘, embodying our commitment to robust analysis and sustainable growth.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            Utilizing advanced machine learning algorithms and comprehensive
-            market data, we provide innovative tools and strategies for
-            analyzing trends, identifying opportunities, and minimizing risks.
-            Our team is dedicated to transforming complex financial data into
-            actionable insights.
+            We leverage proprietary capital and combine quantitative research, systematic trading, 
+            and traditional valuation methodologies to uncover and act on multi-layered opportunities 
+            in the market. Our cutting-edge systems and dynamic strategies enable us to consistently 
+            deliver superior performance in a fast-paced trading environment.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            Whether you are a seasoned investor or just starting your financial
-            journey, VIS Investment is your trusted partner in achieving your
-            investment goals. Together, we navigate the market and build a
-            future of financial confidence.
+            At VIS Investment, we foster a culture of innovation and collaboration, 
+            empowering our team to continuously learn, grow, and excel.
+            Stay connected with us to learn more about our insights and opportunities.
           </p>
         </div>
       </div>
