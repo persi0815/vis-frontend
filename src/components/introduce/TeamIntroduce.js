@@ -2,28 +2,42 @@ import React from "react";
 
 const teamMembers = [
   {
-    name: "Si-Hyun Lee",
-    position: "Frontend Developer",
-    bio: "Charlie oversees project timelines and coordinates team efforts efficiently.",
-    photo: "/images/team-sihyun.png",
+    name: "Sihyun, Lee",
+    position: "Co-Chief Executive Officer",
+    bio: "現) VIS Investment, Co-CEO\n" +
+        "前) WorldQuant, Hedge Fund Freelancer\n" +
+        "前) KoreaWide Partners, Private Equity Intern\n" +
+        "前) Arthur D. Little, Strategy PJT RA\n" +
+        "前) Mercer Korea, Cross-border M&A Team RA\n" +
+        "前) PwC Consulting, Cross-border M&A PJT RA\n" +
+        "前) MiraeAsset Securities, Global S&T Assistant",
+
+    photo: "/images/team-sihyun.jpg",
   },
   {
-    name: "Jae-Young Kim",
-    position: "Backend Developer",
-    bio: "Dana analyzes complex datasets to extract insights and drive innovation.",
-    photo: "/images/team-jaeyoung.png",
+    name: "Jaeyeong, Kim",
+    position: "Co-Chief Executive Officer",
+    bio: "現) VIS Investment, Co-CEO\n" +
+          "前) WorldQuant, Hedge Fund Freelancer\n" +
+          "前) GS Ventures, Venture Capital Intern\n" +
+          "前) PwC Consulting, ML/DL PJT RA",
+    photo: "/images/team-jaeyoung.jpg",
   },
   {
-    name: "Young-Seo Yoon",
-    position: "Project Manager",
-    bio: "Alice is a skilled frontend developer specializing in React and UX/UI design.",
+    name: "YoungSeo, Yoon",
+    position: "Research Assistant",
+    bio: ".",
     photo: "/images/team-youngseo.png",
   },
   {
-    name: "Ji-Won Yang",
-    position: "Data Scientist",
-    bio: "Bob is an expert in backend systems, ensuring performance and scalability.",
-    photo: "/images/team-jiwon.png",
+    name: "JiWon, Yang",
+    position: " Backend & Frontend Developer",
+    bio: "現) VIS Investment, Backend Developer\n" +
+        "現) Wish, Backend Developer\n" +
+        "前) UMC Travel Compass, Backend Developer\n" +
+        "前) KAU Reborn, Backend Developer\n" +
+        "前) KOPIS WhaShow, Backend Developer",
+    photo: "/images/team-jiwon.jpg",
   },
 ];
 
@@ -54,7 +68,10 @@ function TeamIntroduce() {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               {member.position}
             </p>
-            <p className="text-sm text-gray-700 dark:text-gray-300">
+            <p
+              className="text-sm text-gray-700 dark:text-gray-300 text-left"
+              style={{ whiteSpace: "pre-line" }}
+            >
               {member.bio}
             </p>
           </div>
