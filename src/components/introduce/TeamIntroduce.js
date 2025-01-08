@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "YoungSeo, Yoon",
     position: "Research Assistant",
-    bio: ".",
+    bio: "現) VIS Investment, Investment Team RA",
     photo: "/images/team-youngseo.png",
   },
   {
