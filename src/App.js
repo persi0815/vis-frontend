@@ -77,11 +77,11 @@ function App() {
                 />
               </Link>
               {[
-                { path: "/introduce", label: "Introduce" },
-                { path: "/matrix-01", label: "Matrix01" },
-                { path: "/matrix-02", label: "Matrix02" },
-                { path: "/matrix-03", label: "Matrix03" },
-                { path: "/matrix-result", label: "MatrixResult" },
+                { path: "/introduce", label: "About Us" },
+                { path: "/matrix-01", label: "Matrix-01" },
+                { path: "/matrix-02", label: "Matrix-02" },
+                { path: "/matrix-03", label: "Matrix-03" },
+                { path: "/matrix-result", label: "Matrix Result" },
                 { path: "/mypage", label: "Mypage" },
               ].map(({ path, label }) => (
                 <Link
