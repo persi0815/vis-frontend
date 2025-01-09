@@ -35,7 +35,7 @@ const ElectronicNotice = () => {
 
   return (
     <div className="p-6 space-y-8">
-      <h1 className="text-3xl font-bold text-center mt-8 mb-16">Electronic announcement / disclosure</h1>
+      <h1 className="text-3xl font-bold text-center mt-8 mb-16">Electronic Announcement / Disclosure</h1>
       <div className="flex space-x-6">
         <YearToggle years={years} selectedYear={selectedYear} handleYearToggle={handleYearToggle} />
         <div className="flex-1">
