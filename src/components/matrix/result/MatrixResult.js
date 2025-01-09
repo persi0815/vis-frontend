@@ -52,7 +52,7 @@ const MatrixResult = () => {
 
   return (
     <div className="p-6 space-y-6">
-      <h1 className="text-2xl font-bold text-center">Matrix Page</h1>
+      <h1 className="text-3xl font-bold text-center mt-8 mb-10">Matrix Result</h1>
 
       {/* 필터바 */}
       <FilterBar

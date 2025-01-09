@@ -24,13 +24,13 @@ const teamMembers = [
     photo: "/images/team-jaeyoung.jpg",
   },
   {
-    name: "YoungSeo, Yoon",
+    name: "Youngseo, Yoon",
     position: "Research Assistant",
     bio: "現) VIS Investment, Investment Team RA",
     photo: "/images/team-youngseo.png",
   },
   {
-    name: "JiWon, Yang",
+    name: "Jiwon, Yang",
     position: " Backend & Frontend Developer",
     bio: "現) VIS Investment, Backend Developer\n" +
         "現) Wish, Backend Developer\n" +
@@ -43,9 +43,9 @@ const teamMembers = [
 
 function TeamIntroduce() {
   return (
-    <section className="bg-white dark:bg-black py-10 px-6 font-sans">
-      <h1 className="text-3xl font-bold text-center text-black dark:text-white mb-6">
-        Meet Our Team
+    <section className="bg-white dark:bg-black py-10 px-6">
+      <h1 className="text-2xl font-semibold text-gray-800 dark:text-white text-center mb-10 mt-4">
+      Meet Our Team
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {teamMembers.map((member) => (

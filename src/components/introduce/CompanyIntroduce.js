@@ -3,7 +3,7 @@ import React from "react";
 function CompanyIntroduce() {
   return (
     <section className="bg-gray-50 dark:bg-gray-900 py-16 px-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         {/* 사진 */}
         <div>
           <img
@@ -14,7 +14,7 @@ function CompanyIntroduce() {
         </div>
 
         {/* 소개 텍스트 */}
-        <div className="flex flex-col space-y-4 text-center md:text-left">
+        <div className="flex flex-col space-y-6 text-center md:text-left">
           <h1 className="text-4xl font-extrabold text-gray-800 dark:text-white">
             About Our Company
           </h1>

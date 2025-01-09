@@ -5,11 +5,17 @@ import SignUp from "components/auth/signup.js";
 import Login from "components/auth/login.js";
 import HomePage from "components/introduce/HomePage.js";
 import IntroducePage from "components/introduce/IntroducePage";
+import IRDirector from "components/investment/IRDirector.js"
+import IRBusiness from "components/investment/IRBusiness";
+import IRStock from "components/investment/IRStock";
+import IRData from "./components/investment/IRData";
+import ElectronicNotice from "components/investment/ElectronicNotice.js"
 import Matrix01Page from "components/matrix/matrix1/Matrix01Page.js";
 import Matrix02Page from "components/matrix/matrix2/Matrix02Page.js";
 import Matrix03Page from "components/matrix/matrix3/Matrix03Page.js";
 import MatrixResult from "components/matrix/result/MatrixResult.js";
 import api from "lib/api";
+
 
 function MypagePage() {
   return (
@@ -78,6 +84,8 @@ function App() {
               </Link>
               {[
                 { path: "/introduce", label: "About Us" },
+                { path: "/ir-director", label: "IR" },
+                { path: "/notice", label: "Electronic Notice" },
                 { path: "/matrix-01", label: "Matrix-01" },
                 { path: "/matrix-02", label: "Matrix-02" },
                 { path: "/matrix-03", label: "Matrix-03" },
@@ -144,13 +152,16 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/introduce" element={<IntroducePage />} />
+          <Route path="/ir-director" element={<IRDirector />} />
+          <Route path="/ir-business" element={<IRBusiness />} />
+          <Route path="/ir-stock" element={<IRStock />} />
+          <Route path="/ir-data" element={<IRData />} />
+          <Route path="/notice" element={<ElectronicNotice/>} />
           <Route path="/matrix-01" element={<Matrix01Page />} />
           <Route path="/matrix-02" element={<Matrix02Page />} />
           <Route path="/matrix-03" element={<Matrix03Page />} />
           <Route path="/matrix-result" element={<MatrixResult />} />
-          <Route
-            path="/mypage"
-            element={<MypagePage />}
+          <Route path="/mypage" element={<MypagePage />}
           />
           <Route
             path="/signup"
