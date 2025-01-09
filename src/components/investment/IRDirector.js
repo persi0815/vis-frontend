@@ -4,14 +4,14 @@ import YearToggle from "./YearToggle";
 
 const IRDirector = () => {
   const tabs = [
-    { path: "/ir-director", label: "IR Director" },
-    { path: "/business-reports", label: "Business Reports" },
-    { path: "/stock-information", label: "Stock Information" },
-    { path: "/ir-materials", label: "IR Materials" },
+    { path: "/ir-director", label: "Audit Report" },
+    { path: "/ir-business", label: "Business Report" },
+    { path: "/ir-stock", label: "Stock Info" },
+    { path: "/ir-data", label: "IR Data" },
   ];
 
   const [selectedYear, setSelectedYear] = useState("2024");
-  const years = ["2024", "2023", "2022", "2021", "2020"];
+  const years = ["2025", "2024", "2023"];
 
   const handleYearToggle = (year) => {
     setSelectedYear(year);
@@ -30,18 +30,6 @@ const IRDirector = () => {
       { title: "Quarterly Report 2023 - 3", file: "Download" },
       { title: "Quarterly Report 2023 - 2", file: "Download" },
       { title: "Quarterly Report 2023 - 1", file: "Download" }
-    ],
-    "2022": [
-      { title: "Annual Report 2022", file: "Download" },
-      { title: "Quarterly Report 2022", file: "Download" },
-    ],
-    "2021": [
-      { title: "Annual Report 2021", file: "Download" },
-      { title: "Quarterly Report 2021", file: "Download" },
-    ],
-    "2020": [
-      { title: "Annual Report 2020", file: "Download" },
-      { title: "Quarterly Report 2020", file: "Download" },
     ],
   };
 

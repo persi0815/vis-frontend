@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import Tabs from "./Tabs";
 import YearToggle from "./YearToggle";
 
-const IRMaterials = () => {
+const IRData = () => {
   const tabs = [
-    { path: "/ir-director", label: "IR Director" },
-    { path: "/business-reports", label: "Business Reports" },
-    { path: "/stock-information", label: "Stock Information" },
-    { path: "/ir-materials", label: "IR Materials" },
+    { path: "/ir-director", label: "Audit Report" },
+    { path: "/ir-business", label: "Business Report" },
+    { path: "/ir-stock", label: "Stock Info" },
+    { path: "/ir-data", label: "IR Data" },
   ];
 
   const [selectedYear, setSelectedYear] = useState("2024");
-  const years = ["2024", "2023", "2022", "2021", "2020"];
+  const years = ["2025", "2024", "2023"];
 
   const handleYearToggle = (year) => {
     setSelectedYear(year);
@@ -19,22 +19,16 @@ const IRMaterials = () => {
 
   const data = {
     "2024": [
-      { title: "4차 주주서한 (분할합병 철회, '24.12.10)", file: "Download" },
-      { title: "3차 주주서한 (ISS Report에 대한 반박, '24.12.03)", file: "Download" },
-      { title: "2차 주주서한 ('24.12.03)", file: "Download" },
-      { title: "투자자 NDR 설명자료 (24.11.27)", file: "Download" },
-      { title: "주주서한 ('24.08.04)", file: "Download" },
-      { title: "투자자 NDR 설명자료 (24.11.27)", file: "Download" },
-      { title: "2024년 2분기 실적", file: "Download" },
-      { title: "2024년 1분기 실적", file: "Download" },
-      { title: "2023년 연간 경영실적 및 2024년 경영계획", file: "Download" },
-
+      { title: "4th shareholder letter (withdrawal of spin-off merger, '24.12.10)", file: "Download" },
+      { title: "3rd Shareholder Letter (Rebuttal to ISS Report, '24.12.03)", file: "Download" },
+      { title: "2nd shareholder letter ('24.12.03)", file: "Download" },
+      { title: "Shareholder letter ('24.08.04)", file: "Download" },
+      { title: "Investor NDR explanatory material (24.11.27)", file: "Download" },
+      { title: "2024 second quarter performance", file: "Download" },
+      { title: "First quarter performance of 2024", file: "Download" },
     ],
     "2023": [
-      { title: "Annual Report 2023", file: "Download" },
-      { title: "Quarterly Report 2023 - 3", file: "Download" },
-      { title: "Quarterly Report 2023 - 2", file: "Download" },
-      { title: "Quarterly Report 2023 - 1", file: "Download" },
+      { title: "2023 annual management performance and 2024 management plan", file: "Download" },
     ],
   };
 
@@ -69,4 +63,4 @@ const IRMaterials = () => {
   );
 };
 
-export default IRMaterials;
+export default IRData;
